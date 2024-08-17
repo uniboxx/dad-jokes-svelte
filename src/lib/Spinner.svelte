@@ -5,6 +5,7 @@
     width: 48px;
     height: 48px;
     border: 5px solid #333;
+    margin: 2rem;
     border-bottom-color: transparent;
     border-radius: 50%;
     display: inline-block;

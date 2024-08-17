@@ -21,9 +21,8 @@
 </script>
 
 <div class="container">
-  {#if !clicks}
-    <h3>Don't Laugh Challenge</h3>
-  {:else}
+  <h3>Don't Laugh Challenge</h3>
+  {#if !clicks}{:else}
     {#await fetchJoke()}
       <Spinner />
     {:then joke}
